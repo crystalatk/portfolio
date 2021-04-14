@@ -338,6 +338,10 @@ pre code {
   text-align: left;
 }
 
+.jusitfy-content-center {
+  justify-content: center;
+}
+
 .align-center {
   text-align: center;
 }
@@ -2574,6 +2578,16 @@ input[type="radio"] + label:before {
 
 .image.fit img {
   width: 100%;
+}
+.image.fit-mobile {
+  display: block;
+  margin: 0 auto 2em auto;
+  width: 60%;
+}
+
+.image.fit-mobile img {
+  margin: auto;
+  width: 60%;
 }
 
 /* List */
